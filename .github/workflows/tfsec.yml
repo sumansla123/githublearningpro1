@@ -2,7 +2,7 @@ name: TFsec check
 on:
   push:
     branches:
-      - main
+      - dev
 jobs:
   check_tfsec:
     runs-on: ubuntu-latest
