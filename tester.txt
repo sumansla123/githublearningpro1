@@ -1,2 +1,0 @@
-hello
-Added sample file and rename main.yml to simpleworkflow.yml
