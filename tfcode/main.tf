@@ -4,5 +4,5 @@ provider azurerm {
 
 output result {
   value       = "Added TFSec working"
-
+}
 
