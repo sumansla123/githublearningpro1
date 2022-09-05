@@ -4,7 +4,7 @@ on:
     branches:
       - dev
 jobs:
-  check_tfsec:
+  Client_TFCode_Execution:
     runs-on: ubuntu-latest
     defaults:
       run:
