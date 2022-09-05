@@ -21,12 +21,13 @@ jobs:
         run: ./tfsec --force-all-dirs  
         continue-on-error: false 
 
-name: 'Terraform'
-on:
-  push:
-    branches:
-    - dev
-  pull_request:
+#name: 'Terraform'
+
+# on:
+#   push:
+#     branches:
+#     - dev
+#   pull_request:
  
 jobs:
   terraform:
