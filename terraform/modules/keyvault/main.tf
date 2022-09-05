@@ -3,5 +3,5 @@ provider "azurerm" {
 }
 
 output "result" {
-  value = "Added TFSec working"
+  value = "KeyVault Module working"
 }
