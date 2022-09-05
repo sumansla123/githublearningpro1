@@ -1,8 +1,8 @@
-provider azurerm {
-    features {}
-    }
+provider "azurerm" {
+  features {}
+}
 
-output result {
-  value       = "Added TFSec working"
+output "result" {
+  value = "Added TFSec working"
 }
 
