@@ -3,3 +3,4 @@
 *.lock.hcl
 *.exe
 **/.terraform/*
+**/.tflint.hcl
