@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 }
 
-output "result" 
+output "result" {
   value = "Added TFSec working"
 }
 

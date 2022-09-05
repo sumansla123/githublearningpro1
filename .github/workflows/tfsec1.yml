@@ -1,4 +1,4 @@
-name: TFsec check
+name: Client_TFCode_Execution
 on:
   push:
     branches:
