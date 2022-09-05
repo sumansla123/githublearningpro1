@@ -19,3 +19,4 @@ jobs:
 
       - name: Static check infrastructure
         run: ./tfsec --force-all-dirs  
+        continue-on-error: false
