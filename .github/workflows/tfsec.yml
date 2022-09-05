@@ -1,34 +1,32 @@
-name: TFsec check
+# name: TFsec check
+# on:
+#   push:
+#     branches:
+#       - dev
+# jobs:
+#   check_tfsec:
+#     runs-on: ubuntu-latest
+#     defaults:
+#       run:
+#         working-directory: "./terraform"
+
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v3
+          
+#       - name: Setup tfsec
+#         run: wget https://github.com/tfsec/tfsec/releases/latest/download/tfsec-linux-amd64 -O tfsec && chmod +x tfsec
+
+#       - name: Static check infrastructure
+#         run: ./tfsec --force-all-dirs  
+#         continue-on-error: false 
+
+name: 'Terraform'
 on:
   push:
     branches:
       - dev
-jobs:
-  check_tfsec:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: "./terraform"
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-          
-      - name: Setup tfsec
-        run: wget https://github.com/tfsec/tfsec/releases/latest/download/tfsec-linux-amd64 -O tfsec && chmod +x tfsec
-
-      - name: Static check infrastructure
-        run: ./tfsec --force-all-dirs  
-        continue-on-error: false
-
-name: 'Terraform'
- 
-on:
-  push:
-    branches:
-    - dev
-  pull_request:
- 
+   
 jobs:
   terraform:
     name: 'Terraform'
