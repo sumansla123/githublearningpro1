@@ -3,3 +3,6 @@
 *.lock.hcl
 *.exe
 **/.terraform/*
+**/.tflint.hcl
+**/terraform/terraform.txt
+**/terraform/main123.txt

@@ -1,0 +1,278 @@
+2022-09-05T22:02:16.724-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:02:16.724-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:02:16.724-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "plan"}
+2022-09-05T22:02:16.730-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:02:16.730-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:02:16.730-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:02:16.732-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:02:16.732-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:02:16.734-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:02:16.734-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:02:16.734-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:02:16.734-0400 [INFO]  CLI command args: []string{"plan"}
+2022-09-05T22:02:16.735-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:02:16.735-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:02:16.735-0400 [DEBUG] New state was assigned lineage "609ca1a5-792a-8e8f-1daa-26e1023fe0f6"
+2022-09-05T22:02:16.735-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:02:16.735-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:02:16.736-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:02:16.737-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:02:16.737-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:02:17.321-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:02:17.321-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:02:17.321-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:02:17.321-0400 [INFO]  backend/local: starting Plan operation
+2022-09-05T22:02:17.321-0400 [TRACE] backend/local: requesting state manager for workspace "default"
+2022-09-05T22:02:17.321-0400 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2022-09-05T22:02:17.321-0400 [TRACE] backend/local: requesting state lock for workspace "default"
+2022-09-05T22:07:30.032-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:07:30.033-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:07:30.033-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "workspace", "new", "gittest"}
+2022-09-05T22:07:30.038-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:07:30.038-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:07:30.038-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:07:30.040-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:07:30.040-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:07:30.041-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:07:30.041-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:07:30.041-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:07:30.041-0400 [INFO]  CLI command args: []string{"workspace", "new", "gittest"}
+2022-09-05T22:07:30.042-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:07:30.042-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:07:30.042-0400 [DEBUG] New state was assigned lineage "09953c02-daef-46c5-b43a-9f792842a255"
+2022-09-05T22:07:30.042-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:07:30.042-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:07:30.043-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:07:30.045-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:07:30.045-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:07:30.459-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:07:30.459-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:07:30.463-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:07:30.464-0400 [TRACE] backend/local: state manager for workspace "gittest" will:
+ - read initial snapshot from terraform.tfstate.d\gittest\terraform.tfstate
+ - write new snapshots to terraform.tfstate.d\gittest\terraform.tfstate
+ - create any backup at terraform.tfstate.d\gittest\terraform.tfstate.backup
+2022-09-05T22:07:36.654-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:07:36.655-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:07:36.655-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "workspace"}
+2022-09-05T22:07:36.660-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:07:36.660-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:07:36.660-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:07:36.662-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:07:36.662-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:07:36.663-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:07:36.663-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:07:36.663-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:07:36.663-0400 [INFO]  CLI command args: []string{"workspace"}
+2022-09-05T22:07:40.056-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:07:40.057-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:07:40.057-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "workspace", "list"}
+2022-09-05T22:07:40.062-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:07:40.062-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:07:40.062-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:07:40.064-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:07:40.064-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:07:40.064-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:07:40.064-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:07:40.065-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:07:40.065-0400 [INFO]  CLI command args: []string{"workspace", "list"}
+2022-09-05T22:07:40.066-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:07:40.066-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:07:40.066-0400 [DEBUG] New state was assigned lineage "e5d2d9e6-ad42-acd2-c6ba-f71fdfe258f3"
+2022-09-05T22:07:40.066-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:07:40.066-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:07:40.067-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:07:40.068-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:07:40.068-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:07:40.485-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:07:40.489-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:07:40.489-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:07:45.669-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:07:45.669-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:07:45.669-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "apply"}
+2022-09-05T22:07:45.675-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:07:45.675-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:07:45.675-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:07:45.677-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:07:45.677-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:07:45.677-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:07:45.677-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:07:45.677-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:07:45.677-0400 [INFO]  CLI command args: []string{"apply"}
+2022-09-05T22:07:45.679-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:07:45.679-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:07:45.679-0400 [DEBUG] New state was assigned lineage "9d5297e3-2766-8706-3a08-8cb43de16b58"
+2022-09-05T22:07:45.679-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:07:45.679-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:07:45.679-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:07:45.682-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:07:45.682-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:07:46.101-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:07:46.101-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:07:46.102-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:07:46.102-0400 [INFO]  backend/local: starting Apply operation
+2022-09-05T22:07:46.103-0400 [TRACE] backend/local: requesting state manager for workspace "gittest"
+2022-09-05T22:07:46.103-0400 [TRACE] backend/local: state manager for workspace "gittest" will:
+ - read initial snapshot from terraform.tfstate.d\gittest\terraform.tfstate
+ - write new snapshots to terraform.tfstate.d\gittest\terraform.tfstate
+ - create any backup at terraform.tfstate.d\gittest\terraform.tfstate.backup
+2022-09-05T22:07:46.103-0400 [TRACE] backend/local: requesting state lock for workspace "gittest"
+2022-09-05T22:08:19.629-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:08:19.630-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:08:19.630-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "init"}
+2022-09-05T22:08:19.635-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:08:19.635-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:08:19.635-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:08:19.637-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:08:19.637-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:08:19.638-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:08:19.638-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:08:19.638-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:08:19.639-0400 [INFO]  CLI command args: []string{"init"}
+2022-09-05T22:08:19.641-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:08:19.641-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:08:19.641-0400 [DEBUG] New state was assigned lineage "c72f1b78-7018-c5a8-c665-31e4911a5d54"
+2022-09-05T22:08:19.641-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:08:19.641-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:08:19.641-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:08:19.643-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:08:19.643-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:08:20.059-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:08:20.059-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:08:20.059-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:08:20.059-0400 [TRACE] backend/local: state manager for workspace "gittest" will:
+ - read initial snapshot from terraform.tfstate.d\gittest\terraform.tfstate
+ - write new snapshots to terraform.tfstate.d\gittest\terraform.tfstate
+ - create any backup at terraform.tfstate.d\gittest\terraform.tfstate.backup
+2022-09-05T22:08:20.059-0400 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate.d\gittest\terraform.tfstate
+2022-09-05T22:08:20.059-0400 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2022-09-05T22:08:20.059-0400 [TRACE] statemgr.Filesystem: read nil snapshot
+2022-09-05T22:08:20.065-0400 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2022-09-05T22:08:20.065-0400 [TRACE] HTTP client GET request to https://registry.terraform.io/.well-known/terraform.json
+2022-09-05T22:08:20.175-0400 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/azurerm/versions
+2022-09-05T22:08:20.175-0400 [TRACE] HTTP client GET request to https://registry.terraform.io/v1/providers/hashicorp/azurerm/versions
+2022-09-05T22:08:20.202-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:08:20.205-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:08:20.205-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:08:24.922-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:08:24.923-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:08:24.923-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "apply"}
+2022-09-05T22:08:24.928-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:08:24.928-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:08:24.928-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:08:24.929-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:08:24.929-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:08:24.931-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:08:24.931-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:08:24.931-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:08:24.931-0400 [INFO]  CLI command args: []string{"apply"}
+2022-09-05T22:08:24.931-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:08:24.931-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:08:24.931-0400 [DEBUG] New state was assigned lineage "c63d9220-5e97-3d0a-1880-fcfae4b04211"
+2022-09-05T22:08:24.931-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:08:24.931-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:08:24.931-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:08:24.934-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:08:24.934-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:08:25.353-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:08:25.353-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:08:25.353-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:08:25.353-0400 [INFO]  backend/local: starting Apply operation
+2022-09-05T22:08:25.353-0400 [TRACE] backend/local: requesting state manager for workspace "gittest"
+2022-09-05T22:08:25.353-0400 [TRACE] backend/local: state manager for workspace "gittest" will:
+ - read initial snapshot from terraform.tfstate.d\gittest\terraform.tfstate
+ - write new snapshots to terraform.tfstate.d\gittest\terraform.tfstate
+ - create any backup at terraform.tfstate.d\gittest\terraform.tfstate.backup
+2022-09-05T22:08:25.353-0400 [TRACE] backend/local: requesting state lock for workspace "gittest"
+2022-09-05T22:08:37.454-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:08:37.454-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:08:37.454-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "workspace", "list"}
+2022-09-05T22:08:37.459-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:08:37.459-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:08:37.459-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:08:37.461-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:08:37.461-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:08:37.462-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:08:37.462-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:08:37.462-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:08:37.462-0400 [INFO]  CLI command args: []string{"workspace", "list"}
+2022-09-05T22:08:37.462-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:08:37.464-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:08:37.464-0400 [DEBUG] New state was assigned lineage "db380271-495d-1fe3-0ab3-c6a61c27f7f0"
+2022-09-05T22:08:37.464-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:08:37.464-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:08:37.464-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:08:37.464-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:08:37.464-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:08:37.886-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:08:37.886-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:08:37.886-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:08:48.110-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:08:48.111-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:08:48.111-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "workspace", "new", "hubtest"}
+2022-09-05T22:08:48.116-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:08:48.116-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:08:48.116-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:08:48.118-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:08:48.118-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:08:48.119-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:08:48.119-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:08:48.119-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:08:48.119-0400 [INFO]  CLI command args: []string{"workspace", "new", "hubtest"}
+2022-09-05T22:08:48.120-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:08:48.120-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:08:48.121-0400 [DEBUG] New state was assigned lineage "a704465a-5bd9-d254-feb4-2a8dab6e9e13"
+2022-09-05T22:08:48.121-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:08:48.121-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:08:48.121-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:08:48.124-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:08:48.124-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:08:48.540-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:08:48.540-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:08:48.540-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:08:48.540-0400 [TRACE] backend/local: state manager for workspace "hubtest" will:
+ - read initial snapshot from terraform.tfstate.d\hubtest\terraform.tfstate
+ - write new snapshots to terraform.tfstate.d\hubtest\terraform.tfstate
+ - create any backup at terraform.tfstate.d\hubtest\terraform.tfstate.backup
+2022-09-05T22:08:56.161-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:08:56.161-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:08:56.161-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "workspace"}
+2022-09-05T22:08:56.166-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:08:56.166-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:08:56.166-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:08:56.169-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:08:56.169-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:08:56.169-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:08:56.169-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:08:56.169-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:08:56.170-0400 [INFO]  CLI command args: []string{"workspace"}
+2022-09-05T22:09:04.757-0400 [INFO]  Terraform version: 1.1.9
+2022-09-05T22:09:04.758-0400 [INFO]  Go runtime version: go1.17.2
+2022-09-05T22:09:04.758-0400 [INFO]  CLI args: []string{"C:\\Program Files\\Git\\cmd\\terraform.exe", "workspace", "delete", "gittest"}
+2022-09-05T22:09:04.764-0400 [TRACE] Stdout is a terminal of width 189
+2022-09-05T22:09:04.764-0400 [TRACE] Stderr is a terminal of width 189
+2022-09-05T22:09:04.764-0400 [TRACE] Stdin is a terminal
+2022-09-05T22:09:04.766-0400 [DEBUG] Attempting to open CLI config file: C:\Users\ssamala\AppData\Roaming\terraform.rc
+2022-09-05T22:09:04.766-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2022-09-05T22:09:04.766-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2022-09-05T22:09:04.766-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\terraform.d\plugins
+2022-09-05T22:09:04.767-0400 [DEBUG] ignoring non-existing provider search directory C:\Users\ssamala\AppData\Roaming\HashiCorp\Terraform\plugins
+2022-09-05T22:09:04.767-0400 [INFO]  CLI command args: []string{"workspace", "delete", "gittest"}
+2022-09-05T22:09:04.768-0400 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2022-09-05T22:09:04.768-0400 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2022-09-05T22:09:04.768-0400 [DEBUG] New state was assigned lineage "c2f0c6cf-c097-8490-5385-cc474b6b03c1"
+2022-09-05T22:09:04.768-0400 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2022-09-05T22:09:04.768-0400 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2022-09-05T22:09:04.768-0400 [TRACE] providercache.fillMetaCache: scanning directory .terraform\providers
+2022-09-05T22:09:04.770-0400 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.21.1 for windows_amd64 at .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64
+2022-09-05T22:09:04.771-0400 [TRACE] providercache.fillMetaCache: including .terraform\providers\registry.terraform.io\hashicorp\azurerm\3.21.1\windows_amd64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.21.1
+2022-09-05T22:09:05.186-0400 [DEBUG] checking for provisioner in "."
+2022-09-05T22:09:05.186-0400 [DEBUG] checking for provisioner in "C:\\Program Files\\Git\\cmd"
+2022-09-05T22:09:05.186-0400 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2022-09-05T22:09:05.186-0400 [TRACE] backend/local: state manager for workspace "gittest" will:
+ - read initial snapshot from terraform.tfstate.d\gittest\terraform.tfstate
+ - write new snapshots to terraform.tfstate.d\gittest\terraform.tfstate
+ - create any backup at terraform.tfstate.d\gittest\terraform.tfstate.backup
